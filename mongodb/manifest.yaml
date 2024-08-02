@@ -12,7 +12,7 @@ spec:
       imagePullPolicy: Always
       image: revanthsatyam/mongodb:k8
       ports:
-        - containerport: 27017
+        - containerPort: 27017
 ---
 apiVersion: v1
 kind: Service
@@ -25,4 +25,4 @@ spec:
   ports:
     - protocol: TCP
       port: 27017
-      targerPort: 27017
+      targetPort: 27017
