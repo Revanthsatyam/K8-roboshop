@@ -10,7 +10,7 @@ data:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: redis
+  name: user
   labels:
     name: user
     tier: app
